@@ -4,16 +4,16 @@
 
 **Integrantes:**
 
-1. Nome do Integrante 1
-2. Nome do Integrante 2
-3. Nome do Integrante 3
-4. Nome do Integrante 4
-5. Nome do Integrante 5
+1. João Victor Araujo dos Santos
+2. Ruan Welisson Nazário Teles
+3. Guilherme Virgílio de Moura Alves
+4. Pedro Henrique Mendes de Oliveira
+5. Ivano Gabriel Silva Melo
 6. Nome do Integrante 6
-7. Nome do Integrante 7
-8. Nome do Integrante 8
-9. Nome do Integrante 9
-10. Nome do Integrante 10
+7. Cauã Manoel Nogueira de Aguiar
+8. Eduardo dos Santos Silva
+9. Pedro Bertonha Sodré
+10. Matheus Kayke da Silva Marinho Mariano
 
 MVP de um sistema de controle financeiro pessoal, desenvolvido para o trabalho da AV2.
 Permite registrar receitas e despesas, categorizá-las e visualizar um dashboard com
