@@ -4,16 +4,15 @@
 
 **Integrantes:**
 
-1. Nome do Integrante 1
-2. Nome do Integrante 2
-3. Nome do Integrante 3
-4. Nome do Integrante 4
-5. Nome do Integrante 5
-6. Nome do Integrante 6
-7. Nome do Integrante 7
-8. Nome do Integrante 8
-9. Nome do Integrante 9
-10. Nome do Integrante 10
+João Victor Araujo dos Santos
+Ruan Welisson Nazário Teles
+Guilherme Virgílio de Moura Alves
+Pedro Henrique Mendes de Oliveira
+Ivano Gabriel Silva Melo
+Cauã Manoel Nogueira de Aguiar
+Eduardo dos Santos Silva
+Pedro Bertonha Sodré
+Matheus Kayke da Silva Marinho Mariano
 
 ## 1. Visão Geral
 
