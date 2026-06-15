@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { removerTransacao } from '../services/api.js';
 
 const formatarMoeda = (valor) =>
@@ -7,17 +8,30 @@ const formatarData = (data) =>
   new Date(data).toLocaleDateString('pt-BR', { timeZone: 'UTC' });
 
 export default function TransactionList({ transacoes, onEditar, onRemover }) {
+  const [erroRemocao, setErroRemocao] = useState(null);
+
   const handleRemover = async (id) => {
     const confirmou = window.confirm('Tem certeza que deseja excluir esta transação?');
     if (!confirmou) return;
 
-    await removerTransacao(id);
-    onRemover();
+    setErroRemocao(null);
+    try {
+      await removerTransacao(id);
+      onRemover();
+    } catch {
+      setErroRemocao('Não foi possível excluir a transação. Verifique a conexão com a API.');
+    }
   };
 
   return (
     <section className="bg-white rounded-xl shadow-sm border border-slate-200 p-4">
       <h2 className="text-sm font-semibold text-slate-600 mb-3">Transações do período</h2>
+
+      {erroRemocao && (
+        <div className="bg-red-50 border border-red-200 text-red-600 rounded-lg p-3 text-sm mb-3">
+          {erroRemocao}
+        </div>
+      )}
 
       {transacoes.length === 0 ? (
         <p className="text-sm text-slate-400 py-6 text-center">

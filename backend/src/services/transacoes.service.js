@@ -56,12 +56,12 @@ export async function criarTransacao(dados) {
 }
 
 export async function atualizarTransacao(id, dados) {
-  await validarTransacao(dados);
-
   const existente = await transacoesRepository.buscarPorId(id);
   if (!existente) {
     throw criarErro('Transacao nao encontrada.', 404);
   }
+
+  await validarTransacao(dados);
 
   return transacoesRepository.atualizar(id, dados);
 }

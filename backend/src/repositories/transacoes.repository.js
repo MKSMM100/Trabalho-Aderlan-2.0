@@ -68,10 +68,12 @@ export async function resumoPorPeriodo({ mes, ano }) {
 }
 
 // Totais de receita/despesa agrupados por mes (para o grafico de evolucao)
+// Limitado aos ultimos 12 meses para evitar queries pesadas
 export async function evolucaoMensal() {
   const { rows } = await pool.query(
     `SELECT TO_CHAR(data, 'YYYY-MM') AS mes, tipo, SUM(valor) AS total
      FROM transacoes
+     WHERE data >= DATE_TRUNC('month', NOW()) - INTERVAL '11 months'
      GROUP BY mes, tipo
      ORDER BY mes`
   );

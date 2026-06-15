@@ -18,7 +18,7 @@ CREATE TABLE transacoes (
     valor NUMERIC(12, 2) NOT NULL CHECK (valor > 0),
     data DATE NOT NULL,
     tipo tipo_transacao NOT NULL,
-    categoria_id INTEGER REFERENCES categorias(id) ON DELETE SET NULL
+    categoria_id INTEGER REFERENCES categorias(id) ON DELETE RESTRICT
 );
 
 -- ------------------------------------------------------------
