@@ -4,15 +4,15 @@
 
 **Integrantes:**
 
-João Victor Araujo dos Santos
-Ruan Welisson Nazário Teles
-Guilherme Virgílio de Moura Alves
-Pedro Henrique Mendes de Oliveira
-Ivano Gabriel Silva Melo
-Cauã Manoel Nogueira de Aguiar
-Eduardo dos Santos Silva
-Pedro Bertonha Sodré
-Matheus Kayke da Silva Marinho Mariano
+1. João Victor Araujo dos Santos
+2. Ruan Welisson Nazário Teles
+3. Guilherme Virgílio de Moura Alves
+4. Pedro Henrique Mendes de Oliveira
+5. Ivano Gabriel Silva Melo
+6. Cauã Manoel Nogueira de Aguiar
+7. Eduardo dos Santos Silva
+8. Pedro Bertonha Sodré
+9. Matheus Kayke da Silva Marinho Mariano
 
 ## 1. Visão Geral
 
