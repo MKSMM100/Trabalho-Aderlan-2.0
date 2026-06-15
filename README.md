@@ -13,6 +13,7 @@
 7. Eduardo dos Santos Silva
 8. Pedro Bertonha Sodré
 9. Matheus Kayke da Silva Marinho Mariano
+10. Lucas da Silva Fernandes
 
 MVP de um sistema de controle financeiro pessoal, desenvolvido para o trabalho da AV2.
 Permite registrar receitas e despesas, categorizá-las e visualizar um dashboard com
